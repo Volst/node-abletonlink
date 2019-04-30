@@ -1,5 +1,8 @@
 {
-  "name": "abletonlink",
+  "name": "@volst/abletonlink",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.7",
   "description": "ableton link for node.js",
   "main": "index.js",
