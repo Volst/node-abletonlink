@@ -21,6 +21,9 @@
 			['OS=="win"', {
 				'defines': ['LINK_PLATFORM_WINDOWS=1', '_WIN32_WINNT=0x0501'],
 				'defines!': ['_HAS_EXCEPTIONS=0'],
+				"libraries": [
+					"-DelayLoad:node.exe"
+				]
 			}],
 		],
 	}],
